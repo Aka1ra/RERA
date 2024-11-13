@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maharashtra Housing Projects">
+    <title>Kurla</title>
+    <style>
+        body{
+            
+            background-image: url('/kurla.jpeg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        button {
+            background-size: cover;  /* Makes sure the image covers the button */
+            background-position: center;  /* Centers the image on the button */
+            border: solid;  
+            font-size: 16px;  /* Font size */
+            width: 400px;  /* Width of the button */
+            height: 300px;  /* Height of the button */
+            cursor: pointer;  /* Makes the cursor a pointer on hover */
+            transition: background-color 0.3s ease;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            border-color: aqua;
+            opacity: 0.8;  /* Optional: changes the button opacity on hover */
+            
+        }
+
+        #AQ{
+            background-image: url('/ALQ.png');
+        }
+
+        #Galaxy{
+            background-image: url('/GALAXY.png');
+        }
+
+        #Gulzar{
+            background-image: url('/GULZAR.png');
+        }
+
+        #Omj{
+            background-image: url('/OMJ.png');
+        }
+
+        #Kohinoor{
+            background-image: url('/KOHINOOR.png');
+        }
+    
+    </style>
+    </head>
+    <body>
+        <h1>KURLA PROJECT LIST</h1>
+        <button id="AQ" onclick="workpdf()"></button>
+        <button id="Galaxy" onclick="workPDFs()"></button>
+        <button id="Gulzar" onclick="workpd()"></button>
+        <button id="Omj" onclick="workPF()"></button>
+        <button id="Kohinoor" onclick="workP()"></button>
+    
+        <script src="/script.js" defer></script>
+    </body>
+    </html>

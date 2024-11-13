@@ -1,0 +1,57 @@
+body {
+    background-color:rgb(204, 204, 204);
+}
+
+
+
+.map-container {
+    display: flex;        /* Flexbox layout */
+    align-items: flex-start;  /* Align items to the top of the container */
+    justify-content: flex-start; /* Align items to the start (left) */
+    gap: 20px;            /* Optional: space between the map and the info container */
+    margin-left: 620px;
+}
+
+#india-map {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#india-map path {
+    fill: #ddd;
+    stroke: #000;
+    stroke-width: 0.5;
+    transition: fill 0.3s ease;
+}
+
+#india-map path:hover {
+    fill:aqua;
+}
+
+.info-container {
+    width: 300px;         /* Adjust the width as needed */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light background for visibility */
+    border-radius: 8px;
+    margin-left: 1100px;
+    margin-top: -500px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+.intro-container{
+    width: 500px;         /* Adjust the width as needed */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light background for visibility */
+    border-radius: 8px;
+    margin-top: -520px;
+    font-size: 15px;
+}
+
+p2{
+    font-weight: bold;
+    justify-items: center;
+}
